@@ -66,3 +66,9 @@ function displayData(bikes) {
   });
   //   alert("all done");
 }
+
+//arrays
+/* let fruit = ["banana", "apple"];
+console.log(fruit);
+
+fruit.forEach((oneFruit) => {}); */
