@@ -62,14 +62,10 @@ function displayData(bikes) {
       cloneEl.querySelector(".colour span").appendChild(ulEl);
     }
 
+    cloneEl.querySelector(".instock span").textContent = bike.in_stock;
+
     const parentEl = document.querySelector("main");
     parentEl.appendChild(cloneEl);
   });
   //   alert("all done");
 }
-
-//arrays
-/* let fruit = ["banana", "apple"];
-console.log(fruit);
-
-fruit.forEach((oneFruit) => {}); */
