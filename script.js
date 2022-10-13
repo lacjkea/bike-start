@@ -4,10 +4,11 @@ function init(event) {
   loadBikes();
 }
 
+const endpoint =
+  "https://it-studerende.dk/biketest/wp-json/wp/v2/bike?_embed&order=asc";
+
 async function loadBikes() {
-  const response = await fetch(
-    "https://wps22.it-studerende.dk/wp-json/wp/v2/bike?_embed"
-  );
+  const response = await fetch(endpoint);
   //   console.log("lacj-response", response);
   const thedata = await response.json();
   //   console.log("thedata", thedata);

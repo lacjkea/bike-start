@@ -12,10 +12,11 @@ img {
 body {
   background-color: hsl(40deg 26% 93%);
 }
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 5%;
+  gap: 2rem;
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
